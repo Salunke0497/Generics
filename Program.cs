@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,12 +35,16 @@ namespace Generics
             //float result = uc1.Findmax(1f, 2f, 33f);
             //Console.WriteLine("Maximum number is : " + result);
 
-            //UC2.1
+            //UC2.1 find max at 1st postion
             //float result = uc1.Findmax(33f, 2f, 3f);
             //Console.WriteLine("Maximum number is : " + result);
 
             //UC2.2 find max at 2nd position
-            float result = uc1.Findmax(1f, 33f, 2f);
+            //float result = uc1.Findmax(1f, 33f, 2f);
+            //Console.WriteLine("Maximum number is : " + result);
+
+            //UC2.3 find max at 3rd position
+            float result = uc1.Findmax(1f, 2f, 33f);
             Console.WriteLine("Maximum number is : " + result);
             Console.ReadLine();
         }
