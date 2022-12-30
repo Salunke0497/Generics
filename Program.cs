@@ -15,15 +15,22 @@ namespace Generics
 
             //for UC1
             //int result = uc1.Findmax(1, 2, 3);
+            //Console.WriteLine("Maximum number is : " + result);
 
             //for UC1.1
             //int result = uc1.Findmax(33, 1, 2);
+            //Console.WriteLine("Maximum number is : " + result);
 
             //for UC1.2
             //int result = uc1.Findmax(1,33, 2);
+            //Console.WriteLine("Maximum number is : " + result);
 
             //FOR UC1.3
-            int result = uc1.Findmax(1, 2, 33);
+            //int result = uc1.Findmax(1, 2, 33);
+            //Console.WriteLine("Maximum number is : " + result);
+
+            // UC2
+            float result = uc1.Findmax(1f, 2f, 33f);
             Console.WriteLine("Maximum number is : " + result);
             Console.ReadLine();
         }
