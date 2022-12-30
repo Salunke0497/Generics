@@ -12,7 +12,7 @@ namespace Generics
         {
 
             UC1 uc1 = new UC1();
-            int result = uc1.Findmax(1, 2, 3);
+            int result = uc1.Findmax(33, 1, 2);
             Console.WriteLine(result);
             Console.ReadLine();
         }
