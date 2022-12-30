@@ -35,7 +35,11 @@ namespace Generics
             //Console.WriteLine("Maximum number is : " + result);
 
             //UC2.1
-            float result = uc1.Findmax(33f, 2f, 3f);
+            //float result = uc1.Findmax(33f, 2f, 3f);
+            //Console.WriteLine("Maximum number is : " + result);
+
+            //UC2.2 find max at 2nd position
+            float result = uc1.Findmax(1f, 33f, 2f);
             Console.WriteLine("Maximum number is : " + result);
             Console.ReadLine();
         }
