@@ -9,6 +9,7 @@ namespace Generics
     internal class Program
     {
         static void Main(string[] args)
+
         {
 
             UC1 uc1 = new UC1();
@@ -30,7 +31,11 @@ namespace Generics
             //Console.WriteLine("Maximum number is : " + result);
 
             // UC2
-            float result = uc1.Findmax(1f, 2f, 33f);
+            //float result = uc1.Findmax(1f, 2f, 33f);
+            //Console.WriteLine("Maximum number is : " + result);
+
+            //UC2.1
+            float result = uc1.Findmax(33f, 2f, 3f);
             Console.WriteLine("Maximum number is : " + result);
             Console.ReadLine();
         }
