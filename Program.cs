@@ -20,7 +20,10 @@ namespace Generics
             //int result = uc1.Findmax(33, 1, 2);
 
             //for UC1.2
-            int result = uc1.Findmax(1,33, 2);
+            //int result = uc1.Findmax(1,33, 2);
+
+            //FOR UC1.3
+            int result = uc1.Findmax(1, 2, 33);
             Console.WriteLine("Maximum number is : " + result);
             Console.ReadLine();
         }
